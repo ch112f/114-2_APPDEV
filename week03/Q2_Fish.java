@@ -1,3 +1,4 @@
+package week03;
 public class Q2_Fish{
     String name;
     double weight;
