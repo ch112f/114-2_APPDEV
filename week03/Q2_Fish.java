@@ -1,17 +1,17 @@
-package week03;
-public class Q2_Fish{
+public class Q2_Fish {
     String name;
     double weight;
 
-    public void displayinfo(){
-        System.out.println("這隻魚的名字是:"+name+"重量是:"+weight+"公斤");
-    }
-    public void main(String[] args){
-        Q2_Fish myFish=new Q2_Fish();
-        myFish.name="鮭魚";
-        myFish.weight=2.5;
-        myFish.displayinfo();
+    public void displayinf() {
+        // 修正重點：原本這裡寫成 wieght (拼錯了)，應改為 weight
+        System.out.println("This fish's name is: " + name + " Weight: " + weight + " KG");
     }
 
+    public static void main(String[] args) {
+        Q2_Fish myfish = new Q2_Fish();
+        myfish.name = "Black fish";
+        myfish.weight = 250.5;
 
+        myfish.displayinf();
+    }
 }
