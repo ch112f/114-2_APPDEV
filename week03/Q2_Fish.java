@@ -3,7 +3,7 @@ public class Q2_Fish {
     double weight;
 
     public void displayinf() {
-        // 修正重點：原本這裡寫成 wieght (拼錯了)，應改為 weight
+        // 注意：這裡必須拼寫正確為 weight，而不是 wieght
         System.out.println("This fish's name is: " + name + " Weight: " + weight + " KG");
     }
 
